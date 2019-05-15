@@ -57,6 +57,7 @@
     }
     @media(orientation: landscape){
         .about{
+            min-height: 0;
             .about__content{
                 width: 50%;
             }

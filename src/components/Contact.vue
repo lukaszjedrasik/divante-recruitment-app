@@ -61,12 +61,14 @@
                 }
                 &.adress{
                     margin-top: 22px;
+                    padding-bottom: 20px;
                 }
             }
         }
     }
     @media(orientation: landscape){
         .contact{
+            min-height: 0;
             .contact__content{
                 width: 50%;
             }

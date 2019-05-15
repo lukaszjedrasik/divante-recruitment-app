@@ -18,8 +18,9 @@
         top: 35px;
         right: 20px;
         width: 30px;
-        height: 10px;
+        height: 30px;
         z-index: 9999;
+        cursor: pointer;
         div {
             position: absolute;
             top: 0;
