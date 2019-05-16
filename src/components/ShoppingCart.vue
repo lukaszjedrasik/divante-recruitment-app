@@ -7,7 +7,7 @@
         </div>
         <div class="shopping-cart--cart">
             <img src="@/assets/img/shopping-cart.svg" alt="shopping cart">
-            <h3> {{ `${this.$store.state.cart.items ? `Cart (${this.$store.state.cart.items.length})` : 'Cart'}` }} </h3>
+            <h3> {{ `${!this.$store.state.cart.items.length <= 0 ? `Cart (${this.$store.state.cart.items.length})` : 'Cart'}` }} </h3>
             <div class="shopping-cart--cart__cart-magazine">
                 <p v-if="this.$store.state.cart.items <= 0">Cart is empty</p>
                 <ul
